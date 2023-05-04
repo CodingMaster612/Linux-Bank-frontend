@@ -40,7 +40,18 @@ function SignInBox() {
 
    return (
     <header style={HeaderStyle}>
+       <div className="signin-box">
+      <h2>Sign In</h2>
+     
+        
+        <input placeholder="email" type="text" className="login__input" onChange={changeHandler} name="email" value={user.email} />
+
+        
+        <input placeholder="Password" type="password" className="login__input" onChange={changeHandler} name="password" value={user.password} />
        
+        <button className="" type="submit" onClick={submitHandler}>Login</button>
+
+    </div>
 
 
 
