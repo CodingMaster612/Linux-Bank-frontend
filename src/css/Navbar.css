@@ -11,6 +11,9 @@
     padding: 0 20px;
     margin: 0;
     list-style: none;
+    color:rgba(0, 0, 0, 0.10);
+    font-weight: bold;
+    
   }
   
   .nav-links li {

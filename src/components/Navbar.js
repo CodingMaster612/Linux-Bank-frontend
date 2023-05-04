@@ -12,13 +12,13 @@ function Navbar() {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <a href="/">Home</a>
+          <a href="/">Savings</a>
         </li>
         <li>
-          <a href="/">About</a>
+          <a href="/">Checking</a>
         </li>
         <li className="dropdown" onClick={handleDropdownClick}>
-          <a>Dropdown</a>
+          <a>Menu</a>
           {showDropdown && (
             <ul className="dropdown-menu">
               <li>
@@ -31,7 +31,7 @@ function Navbar() {
           )}
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a href="/">Credit Card</a>
         </li>
       </ul>
     </nav>
