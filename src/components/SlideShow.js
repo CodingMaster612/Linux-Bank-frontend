@@ -5,10 +5,10 @@ function Slideshow() {
   const [currentSlide, setCurrentSlide] = useState(0); // state to track current slide
 
   const slides = [
-    { image: 'https://wonderfulengineering.com/wp-content/uploads/2014/06/Linux-wallpapers-16.jpg', caption: 'Slide 1' },
-    { image: 'https://tse1.mm.bing.net/th?id=OIP.2Rjv80KIhgjfkFlUX2ashAHaEH&pid=Api&P=0', caption: 'Slide 2' },
-    { image: 'https://i.kinja-img.com/gawker-media/image/upload/s--1IbYcQm2--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/zj42kn2xzlivgllfpa2u.jpg', caption: 'Slide 3' },
-    { image: 'https://cdn.wallpapersafari.com/26/70/2SoEny.jpg', caption: 'Slide 4' },
+    // { image: 'https://curius.de/wp-content/uploads/2020/12/wallet-1021x580.jpg', caption: 'Slide 1' },
+    { image: 'https://www.tecnobreak.com/wp-content/uploads/1682354627_i614324.jpeg', caption: 'Slide 1' },
+    { image: 'https://timeandupdate.com/wp-content/uploads/2017/11/e-banking-button.jpg', caption: 'Slide 2' },
+    { image: 'http://cdn.mos.cms.futurecdn.net/tBmufcMBh4cNJtsQa67yc5.jpg', caption: 'Slide 3' },
   ];
 
   useEffect(() => {

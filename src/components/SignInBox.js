@@ -51,7 +51,7 @@ function SignInBox() {
         <input placeholder="Password" type="password" className="login__input" onChange={changeHandler} name="password" value={user.password} />
        
         <button className="" type="submit" onClick={submitHandler}>Login</button>
-        <a href="/">Sign Up</a>
+        <a href="/SignUp">Sign Up</a>
 
     </div>
 

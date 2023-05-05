@@ -1,3 +1,10 @@
 .page-wrapper{
     border: 2px solid black;
 }
+
+.page-wrapper p{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-size: 30px;
+}

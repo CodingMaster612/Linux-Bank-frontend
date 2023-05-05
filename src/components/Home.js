@@ -8,6 +8,9 @@ function Homes() {
         <div>
         <img className= "" src={linux} alt="img-linux"/> 
         </div>
+        <div>
+          <p>Welcome To Linux Bank!</p>
+        </div>
         
       </div>
     );
