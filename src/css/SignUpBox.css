@@ -1,4 +1,4 @@
-.signin-box {
+.signup-box {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -11,28 +11,28 @@
    
   }
   
-  .signin-box h2 {
+  .signup-box h2 {
     margin-top: 0;
   }
 
 
-  .signin-box a {
+  .signup-box a {
     position: relative;
     top: 40px;
     left: -330px;
     font-size: medium;
   }
   
-  .signin-box form {
+  .signup-box form {
     display: flex;
     flex-direction: column;
   }
   
-  .signin-box label {
+  .signup-box label {
     margin-top: 10px;
   }
   
-  .signin-box input {
+  .signup-box input {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -40,7 +40,7 @@
     font-size: 16px;
   }
   
-  .signin-box button {
+  .signup-box button {
     
     color: black;
     border: none;
@@ -54,7 +54,7 @@
 
   }
   
-  .signin-box button:hover {
+  .signup-box button:hover {
     background-color: #3e8e41;
   }
   

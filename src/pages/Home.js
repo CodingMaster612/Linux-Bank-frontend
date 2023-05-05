@@ -5,6 +5,7 @@ import Header from '../components/Header.js';
 import BankBox from '../components/BankBox.js'
 import Navbar from "../components/Navbar.js";
 import SignInBox from "../components/SignInBox.js"
+import SlideShow from "../components/SlideShow.js"
 function Homes() {
 return (
     <div>
@@ -13,6 +14,7 @@ return (
         <BankBox/>
         <Navbar/>
         <SignInBox/>
+        <SlideShow/>
     </div>
     
         
