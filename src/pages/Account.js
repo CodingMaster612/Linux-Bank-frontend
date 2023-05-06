@@ -7,7 +7,7 @@ function Account() {
 return (
     <div>
        <Accounts/>
-       <AccNav/>
+       {/* <AccNav/> */}
        <SideBar/>
     </div>
     

@@ -2,12 +2,14 @@
 .sidebar{
     height: 100Vh;
     width: 15%;
-    background-color: rgb(9, 90, 144);
+    
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.9);
 }
 .sidebar1{
     height: 100Vh;
-    width: 5%;
-    background-color: rgb(9, 90, 144);
+    width: 4%;
+    
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.9);
 }
 .main{
     text-align: start;
