@@ -1,7 +1,7 @@
 .navbar {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom, #FFFFFF, #F5F5F5);
+    background: linear-gradient(to bottom, rgba(137, 207, 240), white);
   }
   
   .nav-links {

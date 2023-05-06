@@ -22,7 +22,7 @@ function Navbar() {
           {showDropdown && (
             <ul className="dropdown-menu">
               <li>
-                <a href="/">Option 1</a>
+                <a href="/Account">Account</a>
               </li>
               <li>
                 <a href="/">Option 2</a>
