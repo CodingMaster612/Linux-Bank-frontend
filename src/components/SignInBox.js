@@ -30,7 +30,7 @@ function SignInBox() {
             console.log(response.data)
             localStorage.setItem("Credentials", response.data.email);
             alert("completed")
-            navigator('/add')
+            navigator('/')
 
          }).catch((e) => {
             console.log(e.response)
